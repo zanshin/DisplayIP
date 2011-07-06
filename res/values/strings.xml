@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DisplayIP</string>
+    
+    <string name="ip_address">IP</string>
+    <string name="gateway">Gateway</string>
+    <string name="dns1">DNS</string>
+    <string name="dns2">DNS</string>
+    <string name="netmask">Netmask</string>
+    <string name="lease">Lease Duration</string>
+    <string name="server">Server</string>
+    
+    <string name="macAddress">MAC Address</string>
+    <string name="ssid">SSID</string>
+    <string name="linkSpeed">Link Speed</string>
+    
+    <string name="about">About</string>
+    <string name="about_title">About DisplayIP</string>
+    <string name="about_text">\
+DisplayIP retrieves and displays DHCP and Connection information 
+from the WiFiManager.
+
+Copyright (c) 2010 Mark H. Nichols
+</string>
+</resources>

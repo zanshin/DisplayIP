@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+</LinearLayout>
+-->
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent"
+    android:background="#000044">
+        <TableRow>
+        <TextView
+            android:text="@string/ssid"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtSsid"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/macAddress"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtMacAddress"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/ip_address"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtIpAddress"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/gateway"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtGateway"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/dns1"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtDns1"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/dns2"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtDns2"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/netmask"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtNetmask"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/server"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtServer"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/lease"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtLease"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/linkSpeed"
+            android:padding="3dip" />
+        <TextView
+            android:id="@+id/txtLinkSpeed"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <Button 
+            android:id="@+id/about_button" 
+            android:text="@string/about" />
+    </TableRow>
+</TableLayout>
